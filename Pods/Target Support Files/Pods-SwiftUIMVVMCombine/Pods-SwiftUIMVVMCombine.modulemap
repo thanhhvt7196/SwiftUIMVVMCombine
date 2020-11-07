@@ -1,6 +1,0 @@
-framework module Pods_SwiftUIMVVMCombine {
-  umbrella header "Pods-SwiftUIMVVMCombine-umbrella.h"
-
-  export *
-  module * { export * }
-}
