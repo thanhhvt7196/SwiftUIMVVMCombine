@@ -38,26 +38,26 @@
 		0C7218BC2556F24300284D8A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7218BB2556F24300284D8A /* APIError.swift */; };
 		0C7218C02556F24D00284D8A /* BaseSuccessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7218BF2556F24D00284D8A /* BaseSuccessResult.swift */; };
 		0C7218C42556F27400284D8A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7218C32556F27400284D8A /* Result.swift */; };
-		0CC140A2255783820080E454 /* SyncStateLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14092255783800080E454 /* SyncStateLoading.json */; };
-		0CC140A3255783820080E454 /* lottie_feedLike_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14093255783800080E454 /* lottie_feedLike_85.json */; };
-		0CC140A4255783820080E454 /* MySongMenuHighlight.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14094255783800080E454 /* MySongMenuHighlight.json */; };
-		0CC140A5255783820080E454 /* FeedLikedAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14095255783810080E454 /* FeedLikedAnimation.json */; };
-		0CC140A6255783820080E454 /* lottie_feedSad_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14096255783810080E454 /* lottie_feedSad_85.json */; };
-		0CC140A7255783820080E454 /* lottie_feedAngry_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14097255783810080E454 /* lottie_feedAngry_85.json */; };
-		0CC140A8255783820080E454 /* lottie_feedWow_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14098255783810080E454 /* lottie_feedWow_85.json */; };
-		0CC140A9255783820080E454 /* lottie_feedWow_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC14099255783810080E454 /* lottie_feedWow_64.json */; };
-		0CC140AA255783820080E454 /* lottie_feedHaha_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409A255783810080E454 /* lottie_feedHaha_64.json */; };
-		0CC140AB255783820080E454 /* FeedReactionComboBackgroundAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409B255783810080E454 /* FeedReactionComboBackgroundAnimation.json */; };
-		0CC140AC255783820080E454 /* SyncStateLoadingNowPlaying.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409C255783820080E454 /* SyncStateLoadingNowPlaying.json */; };
-		0CC140AD255783820080E454 /* lottie_feedSad_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409D255783820080E454 /* lottie_feedSad_64.json */; };
-		0CC140AE255783820080E454 /* lottie_feedLike_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409E255783820080E454 /* lottie_feedLike_64.json */; };
-		0CC140AF255783820080E454 /* lottie_feedHaha_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1409F255783820080E454 /* lottie_feedHaha_85.json */; };
-		0CC140B0255783820080E454 /* lottie_feedAngry_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140A0255783820080E454 /* lottie_feedAngry_64.json */; };
-		0CC140B1255783820080E454 /* SyncStateLoadingDark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140A1255783820080E454 /* SyncStateLoadingDark.json */; };
-		0CCAF49D2557822300A90C7C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAF4992557822300A90C7C /* Roboto-Regular.ttf */; };
-		0CCAF49E2557822300A90C7C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAF49A2557822300A90C7C /* Roboto-Light.ttf */; };
-		0CCAF49F2557822300A90C7C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAF49B2557822300A90C7C /* Roboto-Bold.ttf */; };
-		0CCAF4A02557822300A90C7C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCAF49C2557822300A90C7C /* Roboto-Italic.ttf */; };
+		0CC140C6255784460080E454 /* FeedLikedAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140B6255784450080E454 /* FeedLikedAnimation.json */; };
+		0CC140C7255784460080E454 /* lottie_feedHaha_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140B7255784450080E454 /* lottie_feedHaha_64.json */; };
+		0CC140C8255784460080E454 /* lottie_feedLike_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140B8255784450080E454 /* lottie_feedLike_64.json */; };
+		0CC140C9255784460080E454 /* FeedReactionComboBackgroundAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140B9255784450080E454 /* FeedReactionComboBackgroundAnimation.json */; };
+		0CC140CA255784460080E454 /* SyncStateLoadingNowPlaying.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BA255784450080E454 /* SyncStateLoadingNowPlaying.json */; };
+		0CC140CB255784460080E454 /* MySongMenuHighlight.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BB255784450080E454 /* MySongMenuHighlight.json */; };
+		0CC140CC255784460080E454 /* lottie_feedAngry_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BC255784450080E454 /* lottie_feedAngry_64.json */; };
+		0CC140CD255784460080E454 /* lottie_feedHaha_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BD255784460080E454 /* lottie_feedHaha_85.json */; };
+		0CC140CE255784460080E454 /* lottie_feedSad_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BE255784460080E454 /* lottie_feedSad_64.json */; };
+		0CC140CF255784460080E454 /* SyncStateLoadingDark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140BF255784460080E454 /* SyncStateLoadingDark.json */; };
+		0CC140D0255784460080E454 /* lottie_feedAngry_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C0255784460080E454 /* lottie_feedAngry_85.json */; };
+		0CC140D1255784460080E454 /* lottie_feedWow_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C1255784460080E454 /* lottie_feedWow_85.json */; };
+		0CC140D2255784460080E454 /* lottie_feedSad_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C2255784460080E454 /* lottie_feedSad_85.json */; };
+		0CC140D3255784460080E454 /* lottie_feedWow_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C3255784460080E454 /* lottie_feedWow_64.json */; };
+		0CC140D4255784460080E454 /* SyncStateLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C4255784460080E454 /* SyncStateLoading.json */; };
+		0CC140D5255784460080E454 /* lottie_feedLike_85.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140C5255784460080E454 /* lottie_feedLike_85.json */; };
+		0CC140DB255784530080E454 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140D7255784530080E454 /* Roboto-Regular.ttf */; };
+		0CC140DC255784530080E454 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140D8255784530080E454 /* Roboto-Light.ttf */; };
+		0CC140DD255784530080E454 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140D9255784530080E454 /* Roboto-Italic.ttf */; };
+		0CC140DE255784530080E454 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC140DA255784530080E454 /* Roboto-Bold.ttf */; };
 		D3B9814206A073BD3A282B8B /* Pods_SwiftUIMVVMCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4FF8DB0E98051EBE67045C /* Pods_SwiftUIMVVMCombine.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,26 +95,26 @@
 		0C7218BB2556F24300284D8A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		0C7218BF2556F24D00284D8A /* BaseSuccessResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSuccessResult.swift; sourceTree = "<group>"; };
 		0C7218C32556F27400284D8A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		0CC14092255783800080E454 /* SyncStateLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoading.json; sourceTree = "<group>"; };
-		0CC14093255783800080E454 /* lottie_feedLike_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedLike_85.json; sourceTree = "<group>"; };
-		0CC14094255783800080E454 /* MySongMenuHighlight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MySongMenuHighlight.json; sourceTree = "<group>"; };
-		0CC14095255783810080E454 /* FeedLikedAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeedLikedAnimation.json; sourceTree = "<group>"; };
-		0CC14096255783810080E454 /* lottie_feedSad_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedSad_85.json; sourceTree = "<group>"; };
-		0CC14097255783810080E454 /* lottie_feedAngry_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedAngry_85.json; sourceTree = "<group>"; };
-		0CC14098255783810080E454 /* lottie_feedWow_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedWow_85.json; sourceTree = "<group>"; };
-		0CC14099255783810080E454 /* lottie_feedWow_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedWow_64.json; sourceTree = "<group>"; };
-		0CC1409A255783810080E454 /* lottie_feedHaha_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedHaha_64.json; sourceTree = "<group>"; };
-		0CC1409B255783810080E454 /* FeedReactionComboBackgroundAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeedReactionComboBackgroundAnimation.json; sourceTree = "<group>"; };
-		0CC1409C255783820080E454 /* SyncStateLoadingNowPlaying.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoadingNowPlaying.json; sourceTree = "<group>"; };
-		0CC1409D255783820080E454 /* lottie_feedSad_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedSad_64.json; sourceTree = "<group>"; };
-		0CC1409E255783820080E454 /* lottie_feedLike_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedLike_64.json; sourceTree = "<group>"; };
-		0CC1409F255783820080E454 /* lottie_feedHaha_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedHaha_85.json; sourceTree = "<group>"; };
-		0CC140A0255783820080E454 /* lottie_feedAngry_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedAngry_64.json; sourceTree = "<group>"; };
-		0CC140A1255783820080E454 /* SyncStateLoadingDark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoadingDark.json; sourceTree = "<group>"; };
-		0CCAF4992557822300A90C7C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		0CCAF49A2557822300A90C7C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		0CCAF49B2557822300A90C7C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		0CCAF49C2557822300A90C7C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		0CC140B6255784450080E454 /* FeedLikedAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeedLikedAnimation.json; sourceTree = "<group>"; };
+		0CC140B7255784450080E454 /* lottie_feedHaha_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedHaha_64.json; sourceTree = "<group>"; };
+		0CC140B8255784450080E454 /* lottie_feedLike_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedLike_64.json; sourceTree = "<group>"; };
+		0CC140B9255784450080E454 /* FeedReactionComboBackgroundAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeedReactionComboBackgroundAnimation.json; sourceTree = "<group>"; };
+		0CC140BA255784450080E454 /* SyncStateLoadingNowPlaying.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoadingNowPlaying.json; sourceTree = "<group>"; };
+		0CC140BB255784450080E454 /* MySongMenuHighlight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MySongMenuHighlight.json; sourceTree = "<group>"; };
+		0CC140BC255784450080E454 /* lottie_feedAngry_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedAngry_64.json; sourceTree = "<group>"; };
+		0CC140BD255784460080E454 /* lottie_feedHaha_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedHaha_85.json; sourceTree = "<group>"; };
+		0CC140BE255784460080E454 /* lottie_feedSad_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedSad_64.json; sourceTree = "<group>"; };
+		0CC140BF255784460080E454 /* SyncStateLoadingDark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoadingDark.json; sourceTree = "<group>"; };
+		0CC140C0255784460080E454 /* lottie_feedAngry_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedAngry_85.json; sourceTree = "<group>"; };
+		0CC140C1255784460080E454 /* lottie_feedWow_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedWow_85.json; sourceTree = "<group>"; };
+		0CC140C2255784460080E454 /* lottie_feedSad_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedSad_85.json; sourceTree = "<group>"; };
+		0CC140C3255784460080E454 /* lottie_feedWow_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedWow_64.json; sourceTree = "<group>"; };
+		0CC140C4255784460080E454 /* SyncStateLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SyncStateLoading.json; sourceTree = "<group>"; };
+		0CC140C5255784460080E454 /* lottie_feedLike_85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_feedLike_85.json; sourceTree = "<group>"; };
+		0CC140D7255784530080E454 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0CC140D8255784530080E454 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		0CC140D9255784530080E454 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		0CC140DA255784530080E454 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		7A4FF8DB0E98051EBE67045C /* Pods_SwiftUIMVVMCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMVVMCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54FDD39E736F379CF484B89 /* Pods-SwiftUIMVVMCombine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMVVMCombine.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMVVMCombine/Pods-SwiftUIMVVMCombine.debug.xcconfig"; sourceTree = "<group>"; };
 		DDACE147300BFAB32EC85F27 /* Pods-SwiftUIMVVMCombine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMVVMCombine.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMVVMCombine/Pods-SwiftUIMVVMCombine.release.xcconfig"; sourceTree = "<group>"; };
@@ -277,27 +277,38 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		0CC14090255783770080E454 /* Lotties */ = {
+		0CC140B4255784320080E454 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				0CC14095255783810080E454 /* FeedLikedAnimation.json */,
-				0CC1409B255783810080E454 /* FeedReactionComboBackgroundAnimation.json */,
-				0CC140A0255783820080E454 /* lottie_feedAngry_64.json */,
-				0CC14097255783810080E454 /* lottie_feedAngry_85.json */,
-				0CC1409A255783810080E454 /* lottie_feedHaha_64.json */,
-				0CC1409F255783820080E454 /* lottie_feedHaha_85.json */,
-				0CC1409E255783820080E454 /* lottie_feedLike_64.json */,
-				0CC14093255783800080E454 /* lottie_feedLike_85.json */,
-				0CC1409D255783820080E454 /* lottie_feedSad_64.json */,
-				0CC14096255783810080E454 /* lottie_feedSad_85.json */,
-				0CC14099255783810080E454 /* lottie_feedWow_64.json */,
-				0CC14098255783810080E454 /* lottie_feedWow_85.json */,
-				0CC14094255783800080E454 /* MySongMenuHighlight.json */,
-				0CC14092255783800080E454 /* SyncStateLoading.json */,
-				0CC140A1255783820080E454 /* SyncStateLoadingDark.json */,
-				0CC1409C255783820080E454 /* SyncStateLoadingNowPlaying.json */,
+				0CC140DA255784530080E454 /* Roboto-Bold.ttf */,
+				0CC140D9255784530080E454 /* Roboto-Italic.ttf */,
+				0CC140D8255784530080E454 /* Roboto-Light.ttf */,
+				0CC140D7255784530080E454 /* Roboto-Regular.ttf */,
 			);
-			path = Lotties;
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0CC140B5255784390080E454 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				0CC140B6255784450080E454 /* FeedLikedAnimation.json */,
+				0CC140B9255784450080E454 /* FeedReactionComboBackgroundAnimation.json */,
+				0CC140BC255784450080E454 /* lottie_feedAngry_64.json */,
+				0CC140C0255784460080E454 /* lottie_feedAngry_85.json */,
+				0CC140B7255784450080E454 /* lottie_feedHaha_64.json */,
+				0CC140BD255784460080E454 /* lottie_feedHaha_85.json */,
+				0CC140B8255784450080E454 /* lottie_feedLike_64.json */,
+				0CC140C5255784460080E454 /* lottie_feedLike_85.json */,
+				0CC140BE255784460080E454 /* lottie_feedSad_64.json */,
+				0CC140C2255784460080E454 /* lottie_feedSad_85.json */,
+				0CC140C3255784460080E454 /* lottie_feedWow_64.json */,
+				0CC140C1255784460080E454 /* lottie_feedWow_85.json */,
+				0CC140BB255784450080E454 /* MySongMenuHighlight.json */,
+				0CC140C4255784460080E454 /* SyncStateLoading.json */,
+				0CC140BF255784460080E454 /* SyncStateLoadingDark.json */,
+				0CC140BA255784450080E454 /* SyncStateLoadingNowPlaying.json */,
+			);
+			name = Lotties;
 			sourceTree = "<group>";
 		};
 		0CCAF4962557820600A90C7C /* App */ = {
@@ -311,22 +322,11 @@
 		0CCAF4972557821300A90C7C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0CC14090255783770080E454 /* Lotties */,
+				0CC140B5255784390080E454 /* Lotties */,
+				0CC140B4255784320080E454 /* Fonts */,
 				0CCAF4CA2557824A00A90C7C /* Images */,
-				0CCAF4982557821800A90C7C /* Fonts */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0CCAF4982557821800A90C7C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				0CCAF49B2557822300A90C7C /* Roboto-Bold.ttf */,
-				0CCAF49C2557822300A90C7C /* Roboto-Italic.ttf */,
-				0CCAF49A2557822300A90C7C /* Roboto-Light.ttf */,
-				0CCAF4992557822300A90C7C /* Roboto-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		0CCAF4CA2557824A00A90C7C /* Images */ = {
@@ -413,28 +413,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC140AE255783820080E454 /* lottie_feedLike_64.json in Resources */,
-				0CCAF49D2557822300A90C7C /* Roboto-Regular.ttf in Resources */,
-				0CC140A7255783820080E454 /* lottie_feedAngry_85.json in Resources */,
-				0CCAF4A02557822300A90C7C /* Roboto-Italic.ttf in Resources */,
-				0CC140AD255783820080E454 /* lottie_feedSad_64.json in Resources */,
-				0CC140A5255783820080E454 /* FeedLikedAnimation.json in Resources */,
-				0CC140B0255783820080E454 /* lottie_feedAngry_64.json in Resources */,
-				0CC140A4255783820080E454 /* MySongMenuHighlight.json in Resources */,
-				0CC140A8255783820080E454 /* lottie_feedWow_85.json in Resources */,
+				0CC140C8255784460080E454 /* lottie_feedLike_64.json in Resources */,
+				0CC140C6255784460080E454 /* FeedLikedAnimation.json in Resources */,
+				0CC140DC255784530080E454 /* Roboto-Light.ttf in Resources */,
+				0CC140CB255784460080E454 /* MySongMenuHighlight.json in Resources */,
+				0CC140DE255784530080E454 /* Roboto-Bold.ttf in Resources */,
+				0CC140DD255784530080E454 /* Roboto-Italic.ttf in Resources */,
+				0CC140CD255784460080E454 /* lottie_feedHaha_85.json in Resources */,
+				0CC140D4255784460080E454 /* SyncStateLoading.json in Resources */,
+				0CC140CA255784460080E454 /* SyncStateLoadingNowPlaying.json in Resources */,
+				0CC140C9255784460080E454 /* FeedReactionComboBackgroundAnimation.json in Resources */,
+				0CC140CE255784460080E454 /* lottie_feedSad_64.json in Resources */,
+				0CC140CF255784460080E454 /* SyncStateLoadingDark.json in Resources */,
+				0CC140D3255784460080E454 /* lottie_feedWow_64.json in Resources */,
+				0CC140D0255784460080E454 /* lottie_feedAngry_85.json in Resources */,
+				0CC140D1255784460080E454 /* lottie_feedWow_85.json in Resources */,
 				0C7218AB2556F1C600284D8A /* Preview Assets.xcassets in Resources */,
-				0CCAF49F2557822300A90C7C /* Roboto-Bold.ttf in Resources */,
-				0CC140A6255783820080E454 /* lottie_feedSad_85.json in Resources */,
-				0CC140A3255783820080E454 /* lottie_feedLike_85.json in Resources */,
-				0CC140AB255783820080E454 /* FeedReactionComboBackgroundAnimation.json in Resources */,
-				0CC140AF255783820080E454 /* lottie_feedHaha_85.json in Resources */,
-				0CC140B1255783820080E454 /* SyncStateLoadingDark.json in Resources */,
-				0CC140A9255783820080E454 /* lottie_feedWow_64.json in Resources */,
-				0CC140AA255783820080E454 /* lottie_feedHaha_64.json in Resources */,
-				0CCAF49E2557822300A90C7C /* Roboto-Light.ttf in Resources */,
-				0CC140AC255783820080E454 /* SyncStateLoadingNowPlaying.json in Resources */,
+				0CC140D2255784460080E454 /* lottie_feedSad_85.json in Resources */,
+				0CC140CC255784460080E454 /* lottie_feedAngry_64.json in Resources */,
+				0CC140DB255784530080E454 /* Roboto-Regular.ttf in Resources */,
+				0CC140C7255784460080E454 /* lottie_feedHaha_64.json in Resources */,
+				0CC140D5255784460080E454 /* lottie_feedLike_85.json in Resources */,
 				0C7218A82556F1C600284D8A /* Assets.xcassets in Resources */,
-				0CC140A2255783820080E454 /* SyncStateLoading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
