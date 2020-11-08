@@ -15,6 +15,8 @@ struct AppRootView: View {
         case .splash:
             SplashView()
                 .environmentObject(appState)
+        case .tabbar:
+            RootTabbarView()
         default:
             Text("abc")
         }

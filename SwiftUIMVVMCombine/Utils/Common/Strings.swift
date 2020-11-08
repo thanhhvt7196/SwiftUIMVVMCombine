@@ -15,6 +15,8 @@ struct Strings {
     static let help = "Help"
     static let privacy = "Privacy"
     static let settings = "Settings"
+    static let chart = "Chart"
+    static let mypage = "My page"
 
     //login validate
     static let username = "Username"
