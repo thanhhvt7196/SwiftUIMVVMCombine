@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0C226F362557B552008796F2 /* TabBarFadedAnimationTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F352557B552008796F2 /* TabBarFadedAnimationTransitioning.swift */; };
+		0C226F3A2557B61F008796F2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F392557B61F008796F2 /* HomeViewModel.swift */; };
+		0C226F522557BC73008796F2 /* Movie+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F512557BC73008796F2 /* Movie+Enum.swift */; };
+		0C226F552557BCB1008796F2 /* LanguageCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F542557BCB1008796F2 /* LanguageCodes.swift */; };
+		0C226F582557BD6F008796F2 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F572557BD6F008796F2 /* MovieRepository.swift */; };
+		0C226F5D2557BE3E008796F2 /* DiscoverMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F5C2557BE3E008796F2 /* DiscoverMovieResponse.swift */; };
+		0C226F632557BEBE008796F2 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F622557BEBE008796F2 /* Media.swift */; };
+		0C226F6A2557BF0B008796F2 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F692557BF0B008796F2 /* Genre.swift */; };
+		0C226F712557C056008796F2 /* HomeUsecases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F702557C056008796F2 /* HomeUsecases.swift */; };
+		0C226F762557C103008796F2 /* Usecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F752557C103008796F2 /* Usecase.swift */; };
 		0C45025325578A0900A6B6B3 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45025225578A0900A6B6B3 /* CancelBag.swift */; };
 		0C45025A25578A8B00A6B6B3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C45025625578A8A00A6B6B3 /* Roboto-Regular.ttf */; };
 		0C45025B25578A8B00A6B6B3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C45025725578A8A00A6B6B3 /* Roboto-Light.ttf */; };
@@ -81,6 +90,15 @@
 
 /* Begin PBXFileReference section */
 		0C226F352557B552008796F2 /* TabBarFadedAnimationTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarFadedAnimationTransitioning.swift; sourceTree = "<group>"; };
+		0C226F392557B61F008796F2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0C226F512557BC73008796F2 /* Movie+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Enum.swift"; sourceTree = "<group>"; };
+		0C226F542557BCB1008796F2 /* LanguageCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCodes.swift; sourceTree = "<group>"; };
+		0C226F572557BD6F008796F2 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		0C226F5C2557BE3E008796F2 /* DiscoverMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieResponse.swift; sourceTree = "<group>"; };
+		0C226F622557BEBE008796F2 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		0C226F692557BF0B008796F2 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		0C226F702557C056008796F2 /* HomeUsecases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUsecases.swift; sourceTree = "<group>"; };
+		0C226F752557C103008796F2 /* Usecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usecase.swift; sourceTree = "<group>"; };
 		0C45025225578A0900A6B6B3 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 		0C45025625578A8A00A6B6B3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		0C45025725578A8A00A6B6B3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -168,6 +186,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C226F5B2557BE34008796F2 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F5C2557BE3E008796F2 /* DiscoverMovieResponse.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		0C226F602557BEB3008796F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F682557BF05008796F2 /* Genre */,
+				0C226F662557BEC1008796F2 /* Media */,
+				0C226F612557BEB7008796F2 /* Movie */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C226F612557BEB7008796F2 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		0C226F662557BEC1008796F2 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F622557BEBE008796F2 /* Media.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		0C226F682557BF05008796F2 /* Genre */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F692557BF0B008796F2 /* Genre.swift */,
+			);
+			path = Genre;
+			sourceTree = "<group>";
+		};
+		0C226F6E2557C042008796F2 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F742557C0FA008796F2 /* Base */,
+				0C226F6F2557C047008796F2 /* HomeUsecases */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		0C226F6F2557C047008796F2 /* HomeUsecases */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F702557C056008796F2 /* HomeUsecases.swift */,
+			);
+			path = HomeUsecases;
+			sourceTree = "<group>";
+		};
+		0C226F742557C0FA008796F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0C226F752557C103008796F2 /* Usecase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		0C4502502557896600A6B6B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,11 +262,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0C4502512557897300A6B6B3 /* Services */ = {
+		0C4502512557897300A6B6B3 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				0C226F572557BD6F008796F2 /* MovieRepository.swift */,
 			);
-			path = Services;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		0C45028025578B3F00A6B6B3 /* Screens */ = {
@@ -239,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				0C4502B42557985100A6B6B3 /* HomeView.swift */,
+				0C226F392557B61F008796F2 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -286,6 +372,8 @@
 				0C46A54B2556F9CC00E177AF /* DateHelper.swift */,
 				0C46A54E2556F9D900E177AF /* InputValidate.swift */,
 				0C45025225578A0900A6B6B3 /* CancelBag.swift */,
+				0C226F512557BC73008796F2 /* Movie+Enum.swift */,
+				0C226F542557BCB1008796F2 /* LanguageCodes.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -349,7 +437,9 @@
 		0C7218A22556F1C500284D8A /* SwiftUIMVVMCombine */ = {
 			isa = PBXGroup;
 			children = (
-				0C4502512557897300A6B6B3 /* Services */,
+				0C226F6E2557C042008796F2 /* Usecases */,
+				0C226F602557BEB3008796F2 /* Models */,
+				0C4502512557897300A6B6B3 /* Repositories */,
 				0C4502502557896600A6B6B3 /* Views */,
 				0CCAF4972557821300A90C7C /* Resources */,
 				0CCAF4962557820600A90C7C /* App */,
@@ -391,6 +481,7 @@
 		0C7218B92556F23500284D8A /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				0C226F5B2557BE34008796F2 /* Movies */,
 				0C7218BA2556F23900284D8A /* Base */,
 			);
 			path = Response;
@@ -650,23 +741,31 @@
 				0C46A5282556F39400E177AF /* HTTPStatusCodes.swift in Sources */,
 				0C46A58F2556FA7C00E177AF /* Double+Extension.swift in Sources */,
 				0C4502C22557996600A6B6B3 /* SettingView.swift in Sources */,
+				0C226F712557C056008796F2 /* HomeUsecases.swift in Sources */,
+				0C226F582557BD6F008796F2 /* MovieRepository.swift in Sources */,
 				0C7218C42556F27400284D8A /* Result.swift in Sources */,
 				0C46A5872556FA7C00E177AF /* Int+Extension.swift in Sources */,
 				0C46A57B2556FA7C00E177AF /* URL+Extension.swift in Sources */,
+				0C226F632557BEBE008796F2 /* Media.swift in Sources */,
 				0C847DEA2557A8E2009D02EF /* ChartView.swift in Sources */,
 				0C4502AF255796EA00A6B6B3 /* RootTabbarView.swift in Sources */,
+				0C226F552557BCB1008796F2 /* LanguageCodes.swift in Sources */,
 				0C46A5832556FA7C00E177AF /* String+Int+Decodable.swift in Sources */,
 				0C46A53B2556F55C00E177AF /* Strings.swift in Sources */,
 				0C46A5532556FA0C00E177AF /* PersistentManager.swift in Sources */,
+				0C226F762557C103008796F2 /* Usecase.swift in Sources */,
 				0C4502BD255798BC00A6B6B3 /* SearchView.swift in Sources */,
 				0C7218C02556F24D00284D8A /* BaseSuccessResult.swift in Sources */,
 				0C7218A62556F1C500284D8A /* ContentView.swift in Sources */,
 				0C45029825578F7200A6B6B3 /* AppState.swift in Sources */,
 				0C847DF12557AB8D009D02EF /* UIColor+Extension.swift in Sources */,
 				0C4502A12557959800A6B6B3 /* StatefulTabView.swift in Sources */,
+				0C226F3A2557B61F008796F2 /* HomeViewModel.swift in Sources */,
 				0C45028325578B4C00A6B6B3 /* SplashView.swift in Sources */,
 				0C4502B52557985100A6B6B3 /* HomeView.swift in Sources */,
+				0C226F5D2557BE3E008796F2 /* DiscoverMovieResponse.swift in Sources */,
 				0C46A52B2556F39E00E177AF /* NetworkManager.swift in Sources */,
+				0C226F6A2557BF0B008796F2 /* Genre.swift in Sources */,
 				0C4502B92557987900A6B6B3 /* MyPageView.swift in Sources */,
 				0C46A5452556F9A400E177AF /* ArrayHelper.swift in Sources */,
 				0C46A54F2556F9D900E177AF /* InputValidate.swift in Sources */,
@@ -680,6 +779,7 @@
 				0C46A53E2556F59300E177AF /* APIRouter.swift in Sources */,
 				0C847DE625579FDB009D02EF /* Assets.swift in Sources */,
 				0C4502A8255795DF00A6B6B3 /* TabbarController.swift in Sources */,
+				0C226F522557BC73008796F2 /* Movie+Enum.swift in Sources */,
 				0C7218B52556F21000284D8A /* ViewModelBased.swift in Sources */,
 				0C45029B2557926100A6B6B3 /* AppRootView.swift in Sources */,
 				0C4502AB2557960700A6B6B3 /* TabbarCoordinator.swift in Sources */,

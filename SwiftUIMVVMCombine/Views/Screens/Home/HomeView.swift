@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct HomeView: View {
-    var body: some View {
-        Text("Home")
-    }
-}
+    @ObservedObject var viewModel: HomeViewModel
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
+    var body: some View {
+        NavigationView {
+            VStack {
+                Button {
+                    self.viewModel.favoriteMovieList = Array(self.viewModel.favoriteMovieList.prefix(3))
+                } label: {
+                    Text("get 3 first items")
+                }
+
+                List {
+                    ForEach(viewModel.favoriteMovieList) {
+                        Text($0.title ?? "")
+                    }
+                }
+            }
+        }
     }
 }

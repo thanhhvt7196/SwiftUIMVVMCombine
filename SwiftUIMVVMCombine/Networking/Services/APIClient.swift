@@ -8,8 +8,8 @@
 import Foundation
 import Combine
 
-class HostAPIClient {
-    static func performApiNetworkCall<T: Codable>(router: APIRouter, type: T.Type) -> AnyPublisher<T, Error> {
+class APIClient {
+    static func request<T: Codable>(router: APIRouter, type: T.Type) -> AnyPublisher<T, Error> {
         return Deferred {
             Future { promise in
                 NetworkManager.apiProvider.request(router) { result in
