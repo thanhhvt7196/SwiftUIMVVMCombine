@@ -37,6 +37,10 @@ class TabBarCoordinator: NSObject, UITabBarControllerDelegate {
 
         parent.selectedIndex = tabBarController.selectedIndex
     }
+
+    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return TabBarFadedAnimationTransitioning()
+    }
 }
 
 private extension TabBarCoordinator {

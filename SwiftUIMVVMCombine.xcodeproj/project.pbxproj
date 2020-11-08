@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C226F362557B552008796F2 /* TabBarFadedAnimationTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C226F352557B552008796F2 /* TabBarFadedAnimationTransitioning.swift */; };
 		0C45025325578A0900A6B6B3 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45025225578A0900A6B6B3 /* CancelBag.swift */; };
 		0C45025A25578A8B00A6B6B3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C45025625578A8A00A6B6B3 /* Roboto-Regular.ttf */; };
 		0C45025B25578A8B00A6B6B3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C45025725578A8A00A6B6B3 /* Roboto-Light.ttf */; };
@@ -79,6 +80,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C226F352557B552008796F2 /* TabBarFadedAnimationTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarFadedAnimationTransitioning.swift; sourceTree = "<group>"; };
 		0C45025225578A0900A6B6B3 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 		0C45025625578A8A00A6B6B3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		0C45025725578A8A00A6B6B3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				0C4502A4255795BB00A6B6B3 /* Tab.swift */,
 				0C4502A7255795DF00A6B6B3 /* TabbarController.swift */,
 				0C4502AA2557960700A6B6B3 /* TabbarCoordinator.swift */,
+				0C226F352557B552008796F2 /* TabBarFadedAnimationTransitioning.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -681,6 +684,7 @@
 				0C45029B2557926100A6B6B3 /* AppRootView.swift in Sources */,
 				0C4502AB2557960700A6B6B3 /* TabbarCoordinator.swift in Sources */,
 				0C4502A5255795BB00A6B6B3 /* Tab.swift in Sources */,
+				0C226F362557B552008796F2 /* TabBarFadedAnimationTransitioning.swift in Sources */,
 				0C46A5882556FA7C00E177AF /* CaseIterable+Extension.swift in Sources */,
 				0C46A5372556F48300E177AF /* Constants.swift in Sources */,
 				0C45025325578A0900A6B6B3 /* CancelBag.swift in Sources */,
