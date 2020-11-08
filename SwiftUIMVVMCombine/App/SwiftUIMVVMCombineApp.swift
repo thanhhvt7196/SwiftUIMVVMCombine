@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Combine
 
 @main
 struct SwiftUIMVVMCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootView()
+                .environmentObject(AppState())
         }
     }
 }
