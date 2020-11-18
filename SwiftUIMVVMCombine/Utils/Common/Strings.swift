@@ -33,6 +33,7 @@ struct Strings {
     static let yes = "Yes"
     static let no = "No"
     static let OK = "OK"
+    static let cancel = "Cancel"
 
     //format
     static let simpleDateFormat = "yyyy-MM-DD"

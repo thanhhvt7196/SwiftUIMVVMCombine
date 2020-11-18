@@ -15,4 +15,5 @@ enum Root {
 
 final class AppState: ObservableObject {
     @Published var appRootView = Root.splash
+    @Published var selectedTab = 1
 }

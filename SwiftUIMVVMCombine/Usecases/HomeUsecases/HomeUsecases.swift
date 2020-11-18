@@ -8,25 +8,15 @@
 import Foundation
 import Combine
 
-struct HomeUsecase: UsecaseWithParams {
+struct HomeUsecase {
     private let movieRepo: MovieRepositoryType
 
     init(movieRepo: MovieRepositoryType) {
         self.movieRepo = movieRepo
     }
 
-    func output(from input: Input) -> Output {
-        let favoriteMovieList = movieRepo.getMostFavoriteMoveList(page: input.page)
-        return Output(favoriteMovieList: favoriteMovieList)
-    }
-}
-
-extension HomeUsecase {
-    struct Input {
-        var page: Int
-    }
-
-    struct Output {
-        var favoriteMovieList: AnyPublisher<[Media], Error>
+    func getMostFavoriteMovieList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error> {
+        return movieRepo.getMostFavoriteMoveList(page: page)
+            .eraseToAnyPublisher()
     }
 }

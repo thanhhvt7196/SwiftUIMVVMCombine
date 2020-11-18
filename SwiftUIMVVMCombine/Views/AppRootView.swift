@@ -17,6 +17,7 @@ struct AppRootView: View {
                 .environmentObject(appState)
         case .tabbar:
             RootTabbarView()
+                .environmentObject(appState)
         default:
             Text("abc")
         }

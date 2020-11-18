@@ -9,19 +9,17 @@ import Foundation
 import Combine
 
 protocol MovieRepositoryType {
-    func getMostFavoriteMoveList(page: Int) -> AnyPublisher<[Media], Error>
+    func getMostFavoriteMoveList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error>
 }
 
 struct MovieRepositoryImpl: MovieRepositoryType {
-    func getMostFavoriteMoveList(page: Int) -> AnyPublisher<[Media], Error> {
+    func getMostFavoriteMoveList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error> {
         return APIClient.request(
             router: .discoverMovie(sortBy: MovieSortType.voteAverageDesc,
                                    page: page, genre: nil,
                                    includeVideo: true,
                                    originalLanguage: nil),
             type: DiscoverMovieResponse.self)
-            .map { $0.results }
-            .replaceNil(with: [])
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()
     }

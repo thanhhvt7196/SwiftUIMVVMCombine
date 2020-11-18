@@ -10,4 +10,5 @@ target 'SwiftUIMVVMCombine' do
 	pod 'Alamofire'
 	pod 'SDWebImage'
 	pod 'SDWebImageSwiftUI'
+	pod 'RealmSwift', '~> 4.3.0'
 end

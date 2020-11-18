@@ -6,9 +6,17 @@
 //
 
 import Foundation
+import Combine
 
-protocol ViewModel {
-    
+protocol ViewModel: ObservableObject where ObjectWillChangePublisher.Output == Void {
+    associatedtype State
+    associatedtype Input
+    associatedtype Output
+
+    var state: State { get }
+    var output: Output { get }
+
+    func transform(_ input: Input)
 }
 
 protocol UsecaseViewModel: ViewModel {

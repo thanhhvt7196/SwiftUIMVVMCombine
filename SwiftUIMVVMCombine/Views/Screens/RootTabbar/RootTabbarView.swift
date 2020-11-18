@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct RootTabbarView: View {
-    @State private var selectedIndex = 1
+    @EnvironmentObject var appState: AppState
 
     var body: some View {
-        StatefulTabView(selectedIndex: $selectedIndex) {
+        StatefulTabView(selectedIndex: $appState.selectedTab) {
             Tab(title: Strings.mypage, image: Asset.tabbarButtonPersonalNormalNormal.image, selectedImage: Asset.tabbarButtonPersonalSelectedNormal.image) {
                 MyPageView()
             }
             Tab(title: Strings.home, image: Asset.tabbarButtonDiscoverNormalNormal.image, selectedImage: Asset.tabbarButtonDiscoverSelectedNormal.image) {
                 let movieRepo = MovieRepositoryImpl()
-                let homeUseCase = HomeUsecase(movieRepo: movieRepo)
-                HomeView(viewModel: HomeViewModel(useCase: homeUseCase))
+                let useCase = HomeUsecase(movieRepo: movieRepo)
+                HomeView(viewModel: HomeViewModel(useCase: useCase))
             }
             Tab(title: Strings.chart, image: Asset.tabbarButtonZingchartNormalNormal.image, selectedImage: Asset.tabbarButtonZingchartSelectedNormal.image) {
                 ChartView()
