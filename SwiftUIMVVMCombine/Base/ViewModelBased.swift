@@ -9,17 +9,16 @@ import Foundation
 import Combine
 
 protocol ViewModel: ObservableObject where ObjectWillChangePublisher.Output == Void {
-    associatedtype State
     associatedtype Input
     associatedtype Output
 
-    var state: State { get }
     var output: Output { get }
 
-    func transform(_ input: Input)
+    func setupSubscriptions(_ input: Input)
 }
 
 protocol UsecaseViewModel: ViewModel {
     associatedtype UseCase
-    var useCase: UseCase! { get set }
-}
+    var useCases: UseCase! { get set }
+    
+    init(useCases: UseCase)}

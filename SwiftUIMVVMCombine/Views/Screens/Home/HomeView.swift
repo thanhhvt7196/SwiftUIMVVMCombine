@@ -19,8 +19,8 @@ struct HomeView: View {
     @EnvironmentObject var appState: AppState
     @State private var searchText = ""
 
-    var loadNexPageAction: PassthroughSubject<Int, Never> = .init()
-    var setTextAction: PassthroughSubject<String, Never> = .init()
+    private var loadNexPageAction: PassthroughSubject<Int, Never> = .init()
+    private var setTextAction: PassthroughSubject<String, Never> = .init()
 
     init(viewModel: HomeViewModel) {
         self.viewModel = viewModel
@@ -28,7 +28,7 @@ struct HomeView: View {
     }
 
     private func bindViewModel() {
-        viewModel.transform(HomeViewModel.Input(loadNextPage: loadNexPageAction.prepend(1).eraseToAnyPublisher(),
+        viewModel.setupSubscriptions(HomeViewModel.Input(loadNextPage: loadNexPageAction.prepend(1).eraseToAnyPublisher(),
                                                 setText: setTextAction.prepend("abc").eraseToAnyPublisher()))
     }
     

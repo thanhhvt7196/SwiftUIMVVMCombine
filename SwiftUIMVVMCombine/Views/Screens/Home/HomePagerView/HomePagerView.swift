@@ -21,7 +21,7 @@ struct HomePagerView: View {
     
     private func bindViewModel() {
         let input = HomePagerViewModel.Input(selectedMedia: selectedIndex.eraseToAnyPublisher())
-        viewModel.transform(input)
+        viewModel.setupSubscriptions(input)
     }
     
     var body: some View {

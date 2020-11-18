@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-struct HomeUsecase {
+struct HomeUsecases {
     private let movieRepo: MovieRepositoryType
 
     init(movieRepo: MovieRepositoryType) {
@@ -17,6 +17,5 @@ struct HomeUsecase {
 
     func getMostFavoriteMovieList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error> {
         return movieRepo.getMostFavoriteMoveList(page: page)
-            .eraseToAnyPublisher()
     }
 }

@@ -17,8 +17,8 @@ struct RootTabbarView: View {
             }
             Tab(title: Strings.home, image: Asset.tabbarButtonDiscoverNormalNormal.image, selectedImage: Asset.tabbarButtonDiscoverSelectedNormal.image) {
                 let movieRepo = MovieRepositoryImpl()
-                let useCase = HomeUsecase(movieRepo: movieRepo)
-                HomeView(viewModel: HomeViewModel(useCase: useCase))
+                let homeUseCases = HomeUsecases(movieRepo: movieRepo)
+                HomeView(viewModel: HomeViewModel(useCases: homeUseCases))
             }
             Tab(title: Strings.chart, image: Asset.tabbarButtonZingchartNormalNormal.image, selectedImage: Asset.tabbarButtonZingchartSelectedNormal.image) {
                 ChartView()

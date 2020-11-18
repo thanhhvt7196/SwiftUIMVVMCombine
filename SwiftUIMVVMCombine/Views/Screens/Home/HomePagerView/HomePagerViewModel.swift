@@ -18,7 +18,7 @@ class HomePagerViewModel: ViewModel {
         output.mediaList = mediaList
     }
     
-    func transform(_ input: Input) {
+    func setupSubscriptions(_ input: Input) {
         input.selectedMedia.compactMap { [weak self] index -> Media? in
             guard let self = self, self.state.mediaList.indices.contains(index) else {
                 return nil

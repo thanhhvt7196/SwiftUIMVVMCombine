@@ -10,12 +10,22 @@ import Foundation
 enum UserDefaultKeys {
     static let requestToken = "RequestToken"
     static let sessionID = "SessionID"
+    static let hasLaunchedAppBefore = "HasLaunchedAppBefore"
 }
 
 
 class PersistentManager {
     static let shared = PersistentManager()
     private let defaults = UserDefaults.standard
+    
+    var hasLaunchedAppBefore: Bool {
+        set {
+            defaults.set(newValue, forKey: UserDefaultKeys.hasLaunchedAppBefore)
+        }
+        get {
+            return defaults.bool(forKey: UserDefaultKeys.hasLaunchedAppBefore)
+        }
+    }
 
     var sessionID: String {
         set {

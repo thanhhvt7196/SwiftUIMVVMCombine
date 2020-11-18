@@ -9,17 +9,17 @@ import Foundation
 import Combine
 
 class HomeViewModel: UsecaseViewModel {
-    var useCase: HomeUsecase!
+    var useCases: HomeUsecases!
     private var cancelBag = CancelBag()
 
     var state = State(page: 0)
     @Published var output = Output(favoriteList: [], page: 0)
 
-    init(useCase: HomeUsecase) {
-        self.useCase = useCase
+    required init(useCases: HomeUsecases) {
+        self.useCases = useCases
     }
 
-    func transform(_ input: Input) {
+    func setupSubscriptions(_ input: Input) {
         input.loadNextPage
             .flatMap { [unowned self] page in
                 getFavoriteMovieList(page: page)
@@ -37,8 +37,8 @@ class HomeViewModel: UsecaseViewModel {
 }
 
 extension HomeViewModel {
-    func getFavoriteMovieList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error> {
-        return useCase.getMostFavoriteMovieList(page: page)
+    private func getFavoriteMovieList(page: Int) -> AnyPublisher<DiscoverMovieResponse, Error> {
+        return useCases.getMostFavoriteMovieList(page: page)
     }
 }
 

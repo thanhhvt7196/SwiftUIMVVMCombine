@@ -13,7 +13,10 @@ struct AppRootView: View {
     var body: some View {
         switch appState.appRootView {
         case .splash:
-            SplashView()
+            let genreRepo = GenreRepositoryImpl()
+            let splashUseCases = SplashUsecases(genreRepo: genreRepo)
+            let splashViewModel = SplashViewModel(useCases: splashUseCases)
+            SplashView(viewModel: splashViewModel)
                 .environmentObject(appState)
         case .tabbar:
             RootTabbarView()
